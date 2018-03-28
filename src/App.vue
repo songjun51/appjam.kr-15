@@ -13,9 +13,9 @@
       </div>
       <div id="nav">
         <div id="nav1" class="navitem">
-          <a href="#">
+        <router-link to="Topic">        
          <div class="iconarea"> <img id="icon1" src="./assets/page-1@3x.png"></div>
-          <div class="navmsg font">주제 확인</div></a>
+          <div class="navmsg font">주제 확인</div></router-link>
         </div>
 
 
@@ -33,9 +33,29 @@
 
          <div id="nav4" class="navitem" >
            <a href="#">
+             <div id="visible">
           <div class="iconarea"><img id="icon4" src="./assets/page-1_4@3x.png"></div>
-          <div class="navmsg font">서비스 조사</div></a>
+          <div class="navmsg font">서비스 조사</div></div></a>
+          <div id = "visiblemenu">
+            <div class="visibleitem">
+                <div class="itemtext">팀빌딩 조사</div>
+               <img src="./assets/arrow.png" class="visibleicon">
+          </div>
+          <div class="visibleitem">
+                <div class="itemtext">중간점검</div>
+                <!-- <img src="./assets/arrow.png" class="visibleicon"> -->
+          </div>
+          <div class="visibleitem">
+                <div class="itemtext">최종제출</div>
+                <!-- <img src="./assets/arrow.png" class="visibleicon"> -->
+          </div>
+          <div class="visibleitem">
+                <div class="itemtext">피드백</div>
+                <!-- <img src="./assets/arrow.png" class="visibleicon"> -->
+                          </div>
+
         </div>
+         </div>
 
 
          <div id="nav5" class="navitem" v-mouseover="up" @mouseleave="up" >
@@ -68,7 +88,7 @@ export default {
     return {
       timerstartmsg: "15회 앱잼은 현재",
       timerendmsg: "남았습니다",
-      up : false
+      up: false
     };
   },
   computed: {
