@@ -1,80 +1,10 @@
 <template>
-  <div id="app">
-    <div id="background-alpah">
-    <div id="main">
-      <div id="timerview">
-      <div id="timerstartmsg" class="font timer">{{timerstartmsg}}</div>
-      <div id="timer" class="font timer">12<span>시간</span> 23<span>분</span> 34<span>초</span></div>
-      <div id="timerendmsg" class="font timer">{{timerendmsg}}</div>
-      </div>
-      <div id="timetable">asdf
-        <div id="timeline"></div>
-        <div id="timemsg"></div>
-      </div>
-      <div id="nav">
-        <div id="nav1" class="navitem">
-        <router-link to="Topic">        
-         <div class="iconarea"> <img id="icon1" src="./assets/page-1@3x.png"></div>
-          <div class="navmsg font">주제 확인</div></router-link>
-        </div>
-
-
-         <div id="nav2" class="navitem">
-           <a href="#">
-          <div class="iconarea"><img id="icon2" src="./assets/page-1_2@3x.png"></div>
-          <div class="navmsg font">이벤트 & 규칙</div></a>
-        </div>
-
-         <div id="nav3" class="navitem">
-           <a href="#">
-          <div class="iconarea"><img id="icon3" src="./assets/page-1_3@3x.png"></div>
-          <div class="navmsg font">결과물 제출 </div></a>
-        </div>
-
-         <div id="nav4" class="navitem" >
-           <a href="#">
-             <div id="visible">
-          <div class="iconarea"><img id="icon4" src="./assets/page-1_4@3x.png"></div>
-          <div class="navmsg font">서비스 조사</div></div></a>
-          <div id = "visiblemenu">
-            <div class="visibleitem">
-                <div class="itemtext">팀빌딩 조사</div>
-               <img src="./assets/arrow.png" class="visibleicon">
-          </div>
-          <div class="visibleitem">
-                <div class="itemtext">중간점검</div>
-                <!-- <img src="./assets/arrow.png" class="visibleicon"> -->
-          </div>
-          <div class="visibleitem">
-                <div class="itemtext">최종제출</div>
-                <!-- <img src="./assets/arrow.png" class="visibleicon"> -->
-          </div>
-          <div class="visibleitem">
-                <div class="itemtext">피드백</div>
-                <!-- <img src="./assets/arrow.png" class="visibleicon"> -->
-                          </div>
-
-        </div>
-         </div>
-
-
-         <div id="nav5" class="navitem" v-mouseover="up" @mouseleave="up" >
-           <a href="https://www.facebook.com/smarteenappclub/" target="_blank">
-         <div class="iconarea"> <img  id="icon5" src="./assets/page-1_5@3x.png"></div>
-          <div class="navmsg font" >페이스북 페이지</div></a>
-        </div>
-      </div>
-
-
-
-
+  <div id="app" class="topic">
+    <div id="topic-background-alpah">
+    <div id="topic-main">
+      asdf
     </div>
-
-
-
-
-
-</div>
+    </div>
 </div>
 
 
