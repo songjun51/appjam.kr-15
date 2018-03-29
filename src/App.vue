@@ -7,9 +7,39 @@
       <div id="timer" class="font timer">12<span>시간</span> 23<span>분</span> 34<span>초</span></div>
       <div id="timerendmsg" class="font timer">{{timerendmsg}}</div>
       </div>
-      <div id="timetable">asdf
-        <div id="timeline"></div>
-        <div id="timemsg"></div>
+      
+      <div id="timetable">
+
+        <div id="timeline-area">
+          <div class="timeline-packman"></div>
+          <div class="timeline-line line1"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-line line2"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-line line3"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-line line4"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-line line5"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-line line6"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-line line7"></div>
+          <div class="timeline-dot"></div>
+        </div>
+
+        <div id="timemsg-area">
+
+          <div class="comment-box line1">
+            <div class="comment-arrow"></div>
+            <div class="comment-body">
+            <div class="comment-msg">a</div>
+            </div>
+            
+          </div>
+          
+        
+        </div>
       </div>
       <div id="nav">
         <div id="nav1" class="navitem">

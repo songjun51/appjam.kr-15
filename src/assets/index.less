@@ -5,6 +5,7 @@
   margin: 0;
   overflow-x: hidden;
   overflow-y: hidden;
+  font-family: 'Noto Sans KR', sans-serif !important;
 }
 
 #app {
@@ -26,10 +27,11 @@
 }
 
 #main {
-  margin-top: 7.6%;
+  
   height: 100vh;
   width: 600px;
-  margin: 7% auto; // 12시부터 시계방향
+  margin: auto; // 12시부터 시계방향
+  margin-top: 6%;
 }
 
 .font {
@@ -42,10 +44,11 @@
 
 #timerview {
   text-align: center;
+  height: 25%;
 }
 
 #timerstartmsg {
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.5px;
   text-align: center;
@@ -54,7 +57,7 @@
 
 #timer {
   margin-top: 0.5vw;
-  font-size: 32px;
+  font-size: 45px;
   letter-spacing: -1.4px;
   font-weight: 900;
 }
@@ -89,11 +92,7 @@
   font-weight: 500;
 }
 
-#timetable {
-  width: 100%;
-  height: 30%;
-  background-color: aqua;
-}
+
 
 #icon1 {
   width: 10%;
@@ -178,6 +177,93 @@
   margin-right: 5%;
 }
 
+#timetable {
+  width: 90%;
+  height: 20%;
+  // background-color: aqua;
+ margin-left: 5%;
+padding-top: 10%;
+ 
+//  vertical-align: auto;
+//  padding-bottom : 3%;
+}
+#timeline-area{
+  width: 100%;
+  height: 15%;
+  background-color: red;
+  margin-top: -3%;
+  .flex-center();
+}
+
+#timemsg-area{
+  width: 100%;
+  height: 70%;
+  background-color: turquoise;
+  margin-top: 10px;
+}
+
+.timeline-line{
+  // margin-top: 3px;
+  height: 2px;
+  background-color: white;
+}
+.line1{
+  width: 12%;
+}
+.line2{
+  width: 22%;
+}
+.line3{
+  width: 12%;
+}
+.line4{
+  width: 12%;
+}
+.line5{
+  width: 12%;
+}
+.line6{
+  width: 12%;
+}
+.line7{
+  width: 12%;
+}
+.timeline-dot{
+  width: 6px;
+  height: 6px;
+  border: 1.5px solid white;
+  border-radius: 50%;
+
+}
+.timeline-packman{
+  width: 0px;
+  height: 0px;
+  border-right: 5px solid transparent;
+  border-top: 5px solid yellow;
+  border-left: 5px solid yellow;
+  border-bottom: 5px solid yellow;
+  border-radius: 50%;
+}
+
+.comment-box{
+margin-left: 5px;
+}
+.comment-arrow{
+border-top: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 0px solid transparent;
+border-left: 10px solid white;
+}
+.comment-body{
+  margin-top: -2px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+
+
+
+
 
 // topic
 
@@ -195,9 +281,9 @@
 }
 
 #topic-main {
-  width: 750px;
-  height: 480px;
-  background-color: aqua;
+  width: 650px;
+  height: 380px;
+  // background-color: aqua;
   // margin-left: auto;
   // margin-right: auto;
   // margin-top: 25%;
@@ -228,10 +314,35 @@
   background-position: left;
   width: 100%;
   height: 25%;
+  
 }
 
-#topic-main-contant {
+#topic-main-background-text{
   width: 100%;
+  height: 100%;
+  color: white;
+  margin-top: 4.3%;
+  margin-left: 7%;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -1.2px;
+  font-size: 13px;
+}
+#topic-main-background-text #topic-main-background-text-2{
+  margin-top: 1%;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: -1.9px;
+  height: 100px;
+}
+
+
+
+#topic-main-contant {
+  width: 104%;
   height: 75%;
   background-color: #fff;
 
@@ -240,7 +351,7 @@
 
 #topic-main-nav {
   height: calc(~"100% - 20px");
-  width: 18%;
+  width: 14%;
 
   padding-top:20px;
 
@@ -261,12 +372,13 @@
   font-weight:400;
   font-size:12px;
   font-family:sans-serif;
+  // font-weight: bold;
 
   color:#7c7c7c;
 }
 
 .topic-main-nav-item-pick{
-  border-right:4px solid #ffa901;
+  border-right:1px solid #ffa901;
 }
 
 .topic-main-nav-item-pick > p{
@@ -277,7 +389,10 @@
 #topic-main-text{
   width:calc(~"82% - 40px");
   height:calc(~"100% - 40px");
-
+  letter-spacing: -1px;
+  // line-height: 1.6px;
+  color: #3c3c3c;
+  
   padding:20px;
 }
 
@@ -286,5 +401,53 @@
   font-weight:400;
   font-family:sans-serif;
 
-  line-height:24px;
+  // line-height:24px;
+}
+#topic-main-text-area{
+  width:calc(~"82% - 40px");
+  height:calc(~"100% - 40px");
+  padding:20px;
+  
+}
+
+#topic-main-text-title{
+  width: 189px;
+  height: 26px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.07;
+  letter-spacing: -1.4px;
+  text-align: left;
+  color: #1c1c1c;
+ 
+}
+.topic-iot-text{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#topic-main-text-mean{
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: -0.8px;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+.iot-background{
+  background-image: url(img_iotbackground.jpg);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+#topic-iot-alpha{
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 120%;
+  height: 120%;
+  margin: -20px 0 0 -20px;
+}
+.text-white{
+  color: white  !important;
 }

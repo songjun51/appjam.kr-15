@@ -4,19 +4,25 @@
       <div id="topic-main">
 
 
-        <div id="topic-main-background"></div>
+        <div id="topic-main-background">
+          <div id="topic-main-background-text">
+          <p>15회 앱잼</p>
+         <p id="topic-main-background-text-2">이벤트 & 규칙</p>
+          </div>
+        </div>
+
         <div id="topic-main-contant">
 
 
           <div id="topic-main-nav">
-            <div class="topic-main-nav-item topic-main-nav-item-pick">
+            <div class="topic-main-nav-item">
               <p>이벤트</p>
             </div>
-              <div class="topic-main-nav-item"><p>규칙</p></div>
+              <div class="topic-main-nav-item topic-main-nav-item-pick"><p>규칙</p></div>
 
           </div>
           <div id="topic-main-text">
-            <p>1. 일월과 영원히 피어나기 가슴에 우리 것이다.</p>
+            <p>1.asd</p>
             <p>2. 보라, 칼이다. 뜨고, 대고, 끓는 노년에게서 착목한는 봄바람을 싹이 같이, 것이다.</p>
             <p>3. 천지는 웅대한 인생에 광야에서 때에, 피다. 없으면, 투명하되 청춘이 설레는 만천하의 봄바람이다.</p>
             <p>4. 그러므로 우리의 품었기 피가 위하여 하여도 산야에 귀는 보라.</p>
